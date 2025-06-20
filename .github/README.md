@@ -1,15 +1,9 @@
-<style>
-  h1 {
-    text-align: center;
-  }
-  h2 {
-    text-align: center;
-  }
-</style>
-
+<div align=center>
 <h1> GitSmiles </h1>
 
 <img src="demo.png" height=200 style="display: block; margin: auto;">
+
+</div>
 
 ## About
 Gitsmiles is a `python` powered project that originated from Angstrom Nitro.
