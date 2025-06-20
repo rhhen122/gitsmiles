@@ -11,7 +11,12 @@ if [[ $1 == "help" ]]; then
   echo "\
 Gitsmiles!
 
+gitsmiles install
+gitsmiles uninstall
+gitsmiles update
 gitsmiles help
+
+
 gitsmiles git
 gitsmiles deploy
 gitsmiles view
@@ -19,6 +24,11 @@ gitsmiles ship
 gitsmiles tag
 gitsmiles add
 "
+  exit
+fi
+if [[ $1 == "update" ]]; then
+  git pull origin master
+  gitsmiles install
   exit
 fi
 if [[ $1 == "" ]]; then
