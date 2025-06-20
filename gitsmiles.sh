@@ -6,4 +6,4 @@ fi
 if [[ $1 == "uninstall" ]]; then
   rm -f ~/gitsmiles/gitsmiles
 fi
-eval "python3 ~/gitsmiles/$1.py"
+eval "python3 ~/gitsmiles/src/$1.py"
