@@ -14,8 +14,15 @@ Gitsmiles!
 gitsmiles help
 gitsmiles git
 gitsmiles deploy
-gtismiles view
+gitsmiles view
+gitsmiles ship
+gitsmiles tag
+gitsmiles add
 "
+  exit
+fi
+if [[ $1 == "" ]]; then
+  gitsmiles help
   exit
 fi
 eval "python3 ~/gitsmiles/src/$1.py"
