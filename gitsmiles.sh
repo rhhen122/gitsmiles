@@ -26,6 +26,7 @@ gitsmiles view - Makes a localhost on port 8888
 gitsmiles ship - Moves chosen files into app/ dir
 gitsmiles tag - Makes a tag on the current commit
 gitsmiles add - Adds a remote location to 'deploy' to
+gitsmiles stat - Shows info about current Git stage
 "
   exit
 fi
