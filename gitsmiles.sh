@@ -24,7 +24,7 @@ gitsmiles update - updates Gitsmiles from src code
 gitsmiles help - Shows help menu
 gitsmiles destroy - Destroys gitsmiles from outer orbit
 
-gitsmiles git - Set commits and stage files
+gitsmiles commit - Set commits and stage files
 gitsmiles deploy - Push commits or Tags
 gitsmiles view - Makes a localhost on port 8888
 gitsmiles ship - Moves chosen files into app/ dir
