@@ -7,6 +7,9 @@ if [[ $1 == "uninstall" ]]; then
   rm -f ~/gitsmiles/gitsmiles
   exit
 fi
+if [[ $1 == "destroy" ]]; then
+  rm -rf ~/gitsmiles/
+fi
 if [[ $1 == "help" ]]; then
   echo "\
 Gitsmiles!
@@ -19,6 +22,7 @@ gitsmiles install - Turns CLI src code into a functional CLI
 gitsmiles uninstall - Uninstalls CLI
 gitsmiles update - updates Gitsmiles from src code
 gitsmiles help - Shows help menu
+gitsmiles destroy - Destroys gitsmiles from outer orbit
 
 gitsmiles git - Set commits and stage files
 gitsmiles deploy - Push commits or Tags
