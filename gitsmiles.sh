@@ -11,18 +11,21 @@ if [[ $1 == "help" ]]; then
   echo "\
 Gitsmiles!
 
-gitsmiles install
-gitsmiles uninstall
-gitsmiles update
-gitsmiles help
+ ___
+/. .\\
+\---/
 
+gitsmiles install - Turns CLI src code into a functional CLI
+gitsmiles uninstall - Uninstalls CLI
+gitsmiles update - updates Gitsmiles from src code
+gitsmiles help - Shows help menu
 
-gitsmiles git
-gitsmiles deploy
-gitsmiles view
-gitsmiles ship
-gitsmiles tag
-gitsmiles add
+gitsmiles git - Set commits and stage files
+gitsmiles deploy - Push commits or Tags
+gitsmiles view - Makes a localhost on port 8888
+gitsmiles ship - Moves chosen files into app/ dir
+gitsmiles tag - Makes a tag on the current commit
+gitsmiles add - Adds a remote location to 'deploy' to
 "
   exit
 fi
