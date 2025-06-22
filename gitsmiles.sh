@@ -9,6 +9,7 @@ if [[ $1 == "uninstall" ]]; then
 fi
 if [[ $1 == "destroy" ]]; then
   rm -rf ~/gitsmiles/
+  exit
 fi
 if [[ $1 == "help" ]]; then
   echo "\

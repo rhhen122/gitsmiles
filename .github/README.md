@@ -17,7 +17,7 @@ Requirements:
 
 ```bash
 git clone https://github.com/rhhen122/gitsmiles.git ~/gitsmiles/
-./gitsmiles.sh install
+~/gitsmiles/gitsmiles.sh install
 ```
 
 <details><summary>Bash</summary>
