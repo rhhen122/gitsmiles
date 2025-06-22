@@ -44,4 +44,3 @@ git clone https://github.com/rhhen122/gitsmiles.git ~/gitsmiles/
   fish_add_path ~/gitsmiles/
 ```
 </details>
-```
