@@ -21,21 +21,27 @@ git clone https://github.com/rhhen122/gitsmiles.git ~/gitsmiles/
 ```
 
 <details><summary>Bash</summary>
-Add the following to your `.bashrc` file to make it run on startup
+
+  Add the following to your `.bashrc` file to make it run on startup
 
 ```bash
-export PATH=$PATH:~/gitsmiles/
+  export PATH=$PATH:~/gitsmiles/
 ```
 </details>
 <details><summary>Zsh</summary>
-Add the following to your `.zshrc` file to make it run on startup
+
+  Add the following to your `.zshrc` file to make it run on startup
 
 ```bash
-export PATH=$PATH:~/gitsmiles/
+  export PATH=$PATH:~/gitsmiles/
 ```
 </details>
 <details><summary>Fish</summary>
-Run the following
+
+  Run the following
 
 ```bash
-fish_add_path ~/gitsmiles/
+  fish_add_path ~/gitsmiles/
+```
+</details>
+```
