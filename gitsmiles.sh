@@ -1,3 +1,7 @@
+if [[ $1 == "plugin" ]]; then
+    eval "python3 ~/gitsmiles/plugins/$2.py"
+    exit
+fi
 if [[ $1 == "install" ]]; then
     cp ~/gitsmiles/gitsmiles.sh ~/gitsmiles/gitsmiles
     chmod 777 ~/gitsmiles/gitsmiles
@@ -8,6 +12,7 @@ if [[ $1 == "uninstall" ]]; then
     exit
 fi
 if [[ $1 == "destroy" ]]; then
+    read -p "ARE YOU SURE YOU WANT TO CONTINUE [Enter if yes ^C if no]"
     rm -rf ~/gitsmiles/
     exit
 fi
