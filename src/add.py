@@ -1,4 +1,6 @@
 import os
+loc = 0
+nn = 0
 def sh(cmd):
     os.system(cmd)
 cnt = input('Location to add [url] : ')
