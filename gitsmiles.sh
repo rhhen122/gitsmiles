@@ -1,3 +1,4 @@
+# The CLI - Shell Script DONT TOUCH!
 if [[ $1 == "plugin" ]]; then
     eval "python3 ~/gitsmiles/plugins/$2.py"
     exit
