@@ -6,6 +6,8 @@ def sh(cmd):
     os.system(cmd)
 
 
+sh("gitsmiles stat")
+
 while True:
     cnt = input("Files to commit, end with ! : ")
     if cnt == "!":
