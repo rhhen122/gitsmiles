@@ -1,4 +1,7 @@
 # The CLI - Shell Script DONT TOUCH!
+if [[ $1 == "dtg" ]]; then
+    eval "git $2"
+fi
 if [[ $1 == "plugin" ]]; then
     eval "python3 ~/gitsmiles/plugins/$2.py"
     exit
@@ -39,6 +42,7 @@ gitsmiles ship - Moves chosen files into app/ dir
 gitsmiles tag - Makes a tag on the current commit
 gitsmiles add - Adds a remote location to 'deploy' to
 gitsmiles stat - Shows info about current Git stage
+gitsmiles dtg [git command] - Runs the following through git
 
 gitsmiles plugin [option]
 "
