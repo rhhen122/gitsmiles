@@ -1,6 +1,14 @@
+#  ██████  ██ ████████ ███████ ███    ███ ██ ██      ███████ ███████
+# ██       ██    ██    ██      ████  ████ ██ ██      ██      ██
+# ██   ███ ██    ██    ███████ ██ ████ ██ ██ ██      █████   ███████
+# ██    ██ ██    ██         ██ ██  ██  ██ ██ ██      ██           ██
+#  ██████  ██    ██    ███████ ██      ██ ██ ███████ ███████ ███████
+# Made By Roky Henderson because he HATES git (: So he made it smile!
+
 # The CLI - Shell Script DONT TOUCH!
 if [[ $1 == "dtg" ]]; then
     eval "git $2"
+    exit
 fi
 if [[ $1 == "plugin" ]]; then
     eval "python3 ~/gitsmiles/plugins/$2.py"
