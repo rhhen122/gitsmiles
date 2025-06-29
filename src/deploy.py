@@ -21,3 +21,4 @@ while True:
         cnt = input("Enter Deploy location for git: ")
         sh(f"git push {cnt} {branch}")
         sh(f"git push {cnt} --tags")
+        break
