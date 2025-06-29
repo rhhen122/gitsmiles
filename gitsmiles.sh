@@ -46,6 +46,7 @@ gitsmiles commit - Set commits and stage files
 gitsmiles deploy - Push commits or Tags
 gitsmiles pull - Pull the latest commit
 gitsmiles view - Makes a localhost on port 8888
+gitsmiles view_port [port] - display your page on a certain port
 gitsmiles ship - Moves chosen files into app/ dir
 gitsmiles tag - Makes a tag on the current commit
 gitsmiles add - Adds a remote location to 'deploy' to
@@ -65,5 +66,8 @@ fi
 if [[ $1 == "" ]]; then
     gitsmiles help
     exit
+fi
+if [[ $1 == "view_port" ]]; then
+    eval "python3 -m http.server $2"
 fi
 eval "python3 ~/gitsmiles/src/$1.py"
