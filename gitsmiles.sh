@@ -70,4 +70,7 @@ fi
 if [[ $1 == "view_port" ]]; then
     eval "python3 -m http.server $2"
 fi
+if [[ $1 == "push" ]]; then
+    gitsmiles deploy
+fi
 eval "python3 ~/gitsmiles/src/$1.py"
